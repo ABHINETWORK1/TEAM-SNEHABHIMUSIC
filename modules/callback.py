@@ -10,7 +10,7 @@ async def cbstart(_, query: CallbackQuery):
     await query.edit_message_text(
         f"""<b>𝐇𝐞𝐲 👋 {message.from_user.first_name}
 
-𝐈 𝐚𝐦 𝐂𝐚𝐫𝐯𝐢𝐧𝐚𝐥 𝐌𝐮𝐬𝐢𝐜 𝐁𝐨𝐭, 𝐔𝐬𝐞 𝐦𝐞 𝐭𝐨 𝐩𝐥𝐚𝐲 𝐦𝐮𝐬𝐢𝐜 𝐢𝐧 𝐲𝐨𝐮𝐫 𝐠𝐫𝐨𝐮𝐩𝐬 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭.
+Ɦɘɭɭø, I ɑɱ ɑɳ Ʌɗⱱɑɳƈɘɗ Ƥrɘɱɩʋɱ Ɱʉsɩƈ Ƥɭɑƴɘr Ɓøʈ Ƈrɘɑʈɘɗ Ɓƴ [SNEHU & ABHI ](t.me/SNEHABHI_SERVER). I Ƈɑɳ Ƥɭɑƴ Ɱʉsɩƈ ɩɳ Yøʋr Ƭɘɭɘʛrɑɱ Ƈɦɑɳɳɘɭ ør Ɠrøuƥ Vøɩƈɘ Ƈɦɑʈ ....
 𝐇𝐨𝐬𝐭𝐞𝐝 𝐎𝐧 𝐕𝐏𝐒, 𝐒𝐨 𝐧𝐨 𝐥𝐚𝐠
 
 🥴𝐍𝐞𝐞𝐝 𝐇𝐞𝐥𝐩!
@@ -21,7 +21,7 @@ async def cbstart(_, query: CallbackQuery):
             [ 
                 [
                     InlineKeyboardButton(
-                        "➕ 𝐀𝐝𝐝 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                        "💫 𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿 👈", url=f"https://t.me/LIVE_LIFE_LIKE_THERE_IS_NO_TOMORROW")
                 ],
                 [
                     InlineKeyboardButton(
@@ -30,20 +30,20 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                         "🤔𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", url=f"https://t.me/IncognitoNetwork/8"
+                         "💫𝙾𝚆𝙽𝙴𝚁 𝚀𝚄𝙴𝙴𝙽✨", url=f"https://t.me/ABHI_IS_MINE"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url=f"https://t.me/IncognitoOff"
+                        "💫𝚂𝚄𝙿𝙿𝙾𝚁𝚃 ✨", url=f"https://t.me/SNEHABHI_SERVER"
                     ),
                     InlineKeyboardButton(
-                        "🔊 𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url=f"https://t.me/IncognitoNetwork"
+                        "💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨", url=f"https://t.me/SNEHABHI_UPDATES"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "𝐒𝐨𝐮𝐫𝐜𝐞 𝐂𝐨𝐝𝐞💞", url="https://t.me/AddyxD"
+                        "💫𝙾𝚆𝙽𝙴𝚁 𝙺𝙸𝙽𝙶✨", url="https://t.me/SNEHU_IS_MINE"
                     )
                 ]
             ]
@@ -70,7 +70,7 @@ async def cbguide(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "🤔𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", url=f"https://t.me/IncognitoNetwork/8"
+                        "🤔𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬", url=f"https://t.me/SNEHABHI_SERVER"
                     )
                 ],
                 [
