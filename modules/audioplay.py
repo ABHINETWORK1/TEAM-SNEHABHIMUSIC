@@ -23,7 +23,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @errors
 async def stream(_, message: Message):
 
-    lel = await message.reply("ıllıllı **Ꭾяσ¢єѕѕιηg**ıllıllı  ♩✌")
+    lel = await message.reply("R𝚄𝙺𝙾 𝚉𝙰𝚁𝙰 𝚂𝙰𝙱𝙰𝚁 𝙺𝙰𝚁𝙾 ⭐ 𝚂𝙾𝙽𝙶 𝙳𝙷𝚄𝙽𝙳𝙷 𝚁𝙰𝙷𝙰 𝙷𝚄 ❤️😋...uploaded by @SNEHABHI_SERVER  ♩✌")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
 
@@ -31,11 +31,29 @@ async def stream(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        text="💬 𝐒𝐮𝐩𝐩𝐨𝐫𝐭",
-                        url=f"https://t.me/IncognitoOff"),
+                        text="💫𝚂𝚄𝙿𝙿𝙾𝚁T✨",
+                        url=f"https://t.me/SNEHABHI_SERVER"),
                     InlineKeyboardButton(
-                        text="🔊 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
-                        url=f"https://t.me/IncognitoNetwork")
+                        text="💫 𝙲𝙷𝙰𝙽𝙽𝙴𝙻✨",
+                        url=f"https://t.me/ABHI_NETWORK1")
+                ],[
+
+                    InlineKeyboardButton(
+
+                           text="💫 𝙼𝙰𝚂𝚃𝙸 𝙶𝚁𝙾𝚄𝙿 👈", url=f"https://t.me/LIVE_LIKE_LIFE")
+
+            ],[       
+
+                    InlineKeyboardButton(
+
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝙺𝙸𝙽𝙶✨", url=f"https://t.me/SNEHU_IS_MINE")
+
+            ],[           
+
+                    InlineKeyboardButton(
+
+                           text="💫𝙾𝚆𝙽𝙴𝚁 𝚀𝚄𝙴𝙴𝙽✨", url=f"HTTP://T.ME/ABHI_IS_MINE")
+
                 ]
             ]
         )
@@ -57,7 +75,7 @@ async def stream(_, message: Message):
     elif url:
         file_path = await converter.convert(youtube.download(url))
     else:
-        return await lel.edit_text("𝐒𝐨𝐧𝐠 𝐧𝐨𝐭 𝐟𝐨𝐮𝐧𝐝.𝐓𝐫𝐲 𝐚𝐧𝐨𝐭𝐡𝐞𝐫 𝐬𝐨𝐧𝐠 𝐨𝐫 𝐦𝐚𝐲𝐛𝐞 𝐬𝐩𝐞𝐥𝐥 𝐢𝐭 𝐩𝐫𝐨𝐩𝐞𝐫𝐥𝐲.")
+        return await lel.edit_text("🎶 Beta jao song ka nam acche se dekh kar ao.. aisa koi song nahi ha merepass 👀...uploaded by @SNEHABHI_SERVER ✨")
 
     if message.chat.id in callsmusic.pytgcalls.active_calls:
         position = await queues.put(message.chat.id, file=file_path)
@@ -72,6 +90,6 @@ async def stream(_, message: Message):
         await message.reply_photo(
         photo=f"{BG_IMAGE}",
         reply_markup=keyboard,
-        caption=f"▶️ **Playing** 𝐡𝐞𝐫𝐞 𝐭𝐡𝐞 𝐬𝐨𝐧𝐠 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐛𝐲 {costumer}"
+        caption=f"▶️𝑺𝑵𝑬𝑯𝑨𝑩𝑯𝑰 𝑺𝑬𝑹𝑽𝑬𝑹 𝑷𝑳𝑨𝒀𝑰𝑵𝑮 𝑺𝑶𝑵𝑮 𝑼𝑷𝑳𝑶𝑨𝑫𝑬𝑫 𝑩𝒀 @SNEHABHI_SERVER 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐛𝐲 {costumer}"
         )
         return await lel.delete()
